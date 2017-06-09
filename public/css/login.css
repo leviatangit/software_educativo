@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+* {
+	font-family: 'Poppins', 'Arial', 'Sans-serif' 
+}
+
+body {
+	background-color: #57b7dd;
+}
+
+.login-box {
+	background-color: white;
+	box-shadow: 0 0 5px 2px #ccc;
+	margin-top: 6em;
+	/*! border: 2px solid #4b84b499; */
+	/*! padding-bottom: 2em; */
+	/*! box-shadow: inset 0 0 10px 2px #ccc; */
+}
+
+.login-titulo {
+	margin: 0;
+	text-align: center;
+	background-color: #fafafa;
+	padding: 10px 0;
+	color: #0000004d;
+	/*! border-bottom: 2px solid #4b84b499; */
+	font-weight: bold;
+}
+
+
+/* LEFT BOX INSTITUCIONAL */
+
+.box-inst {
+	border-right: 2px solid #c6cace66;
+	/*! box-shadow: inset 0 0 10px 2px #ccc; */
+}
+
+.membrete {
+	margin-top: 5em;
+}
+
+.membrete p {
+	text-align: center;
+	font-size: 1.4em;		
+}
+
+.logo {
+	padding-bottom: 40px;
+	padding-top: 3em;
+}
+
+.logo img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* RIGHT BOX FORMULARIO */
+
+.input-group {/*! margin-bottom: 2em; *//*! padding: 10px 30px 10px; */margin-bottom: 2em;}
+
+
+.box-form {
+	margin-top: 3em;
+	height: 100%;
+	margin-bottom: 2em;
+}
+
+
+form.login {
+	margin-top:2em;
+	padding: 10px 20px 0;
+}
+
+
+

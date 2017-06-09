@@ -1,0 +1,1482 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Estudiante",
+				"EstudiantesController"
+			],
+			[
+				"data-",
+				"data-id_seccion"
+			],
+			[
+				"secc",
+				"seccionesSinProf"
+			],
+			[
+				"year",
+				"year_id"
+			],
+			[
+				"hasMN",
+				"hasManyThrough"
+			],
+			[
+				"ind",
+				"index_item"
+			],
+			[
+				"con",
+				"contenidoModulo"
+			],
+			[
+				"conte",
+				"contenido-modulo"
+			],
+			[
+				"estr",
+				"estructuras"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"form_unidad",
+				"form-agregar_unidad"
+			],
+			[
+				"form",
+				"form-agregar_unidad"
+			],
+			[
+				"est",
+				"estatusUnidad"
+			],
+			[
+				"cod",
+				"codigoUnidad"
+			],
+			[
+				"pro",
+				"propietarioUnidad"
+			],
+			[
+				"codigo",
+				"codigo_unidad"
+			],
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"prop",
+				"propietarios_array"
+			],
+			[
+				"pr",
+				"propietarios_array"
+			],
+			[
+				"modi",
+				"Modificar"
+			],
+			[
+				"modal",
+				"modal_unidad"
+			],
+			[
+				"data",
+				"data-activo"
+			],
+			[
+				"table",
+				"table_unidades"
+			],
+			[
+				"datata",
+				"DataTables"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"div",
+				"divTableUnidades"
+			],
+			[
+				"estru",
+				"estructura"
+			],
+			[
+				"di",
+				"direccion"
+			],
+			[
+				"inf",
+				"informacion"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"info",
+				"info-nombre"
+			],
+			[
+				"data-ca",
+				"data-cant_uni"
+			],
+			[
+				"estucu",
+				"estructuras"
+			],
+			[
+				"Estr",
+				"EstructuraController"
+			],
+			[
+				"modulo",
+				"moduloNumero"
+			],
+			[
+				"titu",
+				"titulo_pagina"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"P",
+				"PT_Sans"
+			],
+			[
+				"border",
+				"border-collapse"
+			],
+			[
+				"ra",
+				"randomWord"
+			],
+			[
+				"ran",
+				"randomWord"
+			],
+			[
+				"b",
+				"boton_iniciar"
+			],
+			[
+				"inci",
+				"iniciado"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 3183,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/administracion/header.blade.php",
+			"settings":
+			{
+				"buffer_size": 2042,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/layouts/administracion/navtop.blade.php",
+			"settings":
+			{
+				"buffer_size": 2401,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/layouts/administracion/navleft.blade.php",
+			"settings":
+			{
+				"buffer_size": 1356,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/hidropaez_/hidropaez/database/seeds/UsersTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/hidropaez_/hidropaez/app/Http/Controllers/ProcesoController.php",
+			"settings":
+			{
+				"buffer_size": 3000,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Administracion/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/administrador/users/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 5851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/Administracion/UsersController.php",
+			"settings":
+			{
+				"buffer_size": 2578,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/se/app/Http/Controllers/Auth",
+		"/C/xampp/htdocs/se/resources",
+		"/C/xampp/htdocs/se/resources/views",
+		"/C/xampp/htdocs/se/resources/views/estudiantes",
+		"/C/xampp/htdocs/se/resources/views/estudiantes/elementos",
+		"/C/xampp/htdocs/se/resources/views/layouts",
+		"/C/xampp/htdocs/se/resources/views/layouts/administracion",
+		"/C/xampp/htdocs/se/resources/views/layouts/estudiantes",
+		"/C/xampp/htdocs/hidropaez_/hidropaez"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/hidropaez_/hidropaez/app/Http/Controllers/UserController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Auth/ResetPasswordController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Auth/ForgotPasswordController.php",
+		"/C/xampp/htdocs/se/database/seeds/UsersSeeder.php",
+		"/C/xampp/htdocs/se/routes/web.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Estudiantes/ComponentesController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Estudiantes/ModulosController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Estudiantes/Controller.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Estudiantes/JuegosController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/AdministradorController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/Controller.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/HomeController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/JuegosController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/ModulosController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/UsersController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/YearsController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/ComponentesController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Estudiantes/HomeController.php",
+		"/C/xampp/htdocs/hidropaez_/hidropaez/app/Http/Controllers/homeController.php",
+		"/C/xampp/htdocs/se/resources/views/estudiantes/modulos.blade.php",
+		"/C/xampp/htdocs/se/resources/views/layouts/estudiantes/header.blade.php",
+		"/C/xampp/htdocs/se/resources/views/estudiantes/elementos/modal_modulos.blade.php",
+		"/C/xampp/htdocs/se/database/seeds/JuegosSeeders.php",
+		"/C/xampp/htdocs/se/database/seeds/DatabaseSeeder.php",
+		"/C/xampp/htdocs/se/resources/views/estudiantes/dashboard.blade.php",
+		"/C/xampp/htdocs/se/database/seeds/ImagenesSeeders.php",
+		"/C/xampp/htdocs/se/database/seeds/TemasSeeders.php",
+		"/C/xampp/htdocs/se/app/Modulo.php",
+		"/C/xampp/htdocs/se/app/Juego.php",
+		"/C/xampp/htdocs/se/resources/views/layouts/administracion/header.blade.php",
+		"/C/xampp/htdocs/hidropaez_/hidropaez/config/app.php",
+		"/C/xampp/htdocs/se/resources/lang/es/auth.php",
+		"/C/xampp/htdocs/se/resources/lang/es/pagination.php",
+		"/C/xampp/htdocs/se/config/app.php",
+		"/C/xampp/htdocs/hidropaez_/hidropaez/resources/lang/en/pagination.php",
+		"/C/xampp/htdocs/hidropaez_/hidropaez/resources/lang/es/auth.php",
+		"/C/xampp/htdocs/se/app/User.php",
+		"/C/xampp/htdocs/se/database/seeds/ComponentesSeeders.php",
+		"/C/xampp/htdocs/se/app/Componente.php",
+		"/C/Users/Gabriel/Downloads/Screen Shot 2017-06-07 at 19.00.04-fullpage.png",
+		"/C/xampp/htdocs/se/app/Imagen.php",
+		"/C/xampp/htdocs/se/resources/views/layouts/estudiantes/master.blade.php",
+		"/C/xampp/htdocs/se/tests/CreatesApplication.php",
+		"/C/xampp/htdocs/se/database/seeds/ModulosSeeders.php",
+		"/C/xampp/htdocs/se/bd.png",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Estudiantes/EstudiantesController.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/C/xampp/htdocs/se/resources/views/auth/register.blade.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/ConfigsController.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Broadcasting/PendingBroadcast.php",
+		"/C/xampp/htdocs/hidropaez_/hidropaez/app/Http/Controllers/Auth/AuthController.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/EstudiantesController.php",
+		"/C/xampp/htdocs/se/app/Seccion.php",
+		"/C/xampp/htdocs/se/app/SeccionModulo.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/estudiantes/index.blade.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/secciones/index.blade.php",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Administracion/SeccionesController.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/secciones/recursos/modal_asignar_profesor.blade.php",
+		"/C/xampp/htdocs/se/resources/views/layouts/app.blade.php",
+		"/C/Users/Gabriel/Trabajo/Portafolio/Software educativo/bd.png",
+		"/C/xampp/htdocs/se/public/css/administracion.css",
+		"/C/xampp/htdocs/se/Tareas",
+		"/C/xampp/htdocs/se/.env",
+		"/C/xampp/htdocs/se/public/css/app.css",
+		"/C/xampp/htdocs/se/public/css/admin_app.css",
+		"/C/Users/Gabriel/Trabajo/Portafolio/Software educativo/Screen Shot 2017-04-18 at 19.42.44-fullpage.png",
+		"/C/Users/Gabriel/Trabajo/Portafolio/Software educativo/Screen Shot 2017-04-18 at 19.42.27-fullpage.png",
+		"/C/Users/Gabriel/Trabajo/Portafolio/Software educativo/Descripcion.pdf",
+		"/C/xampp/htdocs/se/app/Year.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_044721_create_estudiante_evaluacion_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_084649_create_respuestas_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_044456_create_opciones_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_044649_create_respuestas_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_043938_create_evaluacion_items_seccion_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_043925_create_items_evaluacion_seccion_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_043508_create_evaluacion_modulo_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_042909_create_records_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_043214_create_records_seccion_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_05_16_213725_create_temas_table.php",
+		"/C/xampp/htdocs/se/app/Providers/AuthServiceProvider.php",
+		"/C/xampp/htdocs/se/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_06_06_042729_create_juegos_table.php",
+		"/C/xampp/htdocs/se/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/se/resources/views/estudiantes/elementos/modal_componentes.blade.php",
+		"/C/xampp/htdocs/se/app/Http/Kernel.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authorize.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Auth/Access/Gate.php",
+		"/C/xampp/htdocs/se/app/Providers/BroadcastServiceProvider.php",
+		"/C/xampp/htdocs/Solti/public/js/mask/mask.js",
+		"/C/xampp/htdocs/se/resources/views/administrador/years/show.blade.php",
+		"/C/xampp/htdocs/se/resources/views/layouts/administracion/footer.blade.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/users/create.blade.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/C/xampp/htdocs/se/storage/framework/views/c56b53217d44e0152386514899f8179c6826b955.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Http/Concerns/InteractsWithInput.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Support/Arr.php",
+		"/C/Users/Gabriel/Trabajo/Recursos/ample-admin-lite_216f01ce51f6770f0/ample-admin-lite/plugins/bower_components/morrisjs/spec/lib/label_series_spec.coffee",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php",
+		"/C/xampp/htdocs/se/database/migrations/2017_05_16_214821_create_secciones_modulos_table.php",
+		"/C/Users/Gabriel/Trabajo/Recursos/ample-admin-lite_216f01ce51f6770f0/ample-admin-lite/plugins/bower_components/chartist-js/dist/chartist.js",
+		"/C/Users/Gabriel/Trabajo/Recursos/ample-admin-lite_216f01ce51f6770f0/ample-admin-lite/plugins/bower_components/chartist-js/dist/chartist.min.js.map",
+		"/C/xampp/htdocs/se/resources/views/administrador/secciones/recursos/modal_crear_seccion.blade.php",
+		"/C/xampp/htdocs/se/public/js/app.js",
+		"/C/xampp/htdocs/se/public/js/administracion.js",
+		"/C/xampp/htdocs/se/public/js/jquery.toast.js",
+		"/C/xampp/htdocs/se/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/C/xampp/htdocs/se/resources/views/auth/login.blade.php",
+		"/C/xampp/htdocs/se/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php",
+		"/C/xampp/htdocs/se/bootstrap/app.php",
+		"/C/xampp/htdocs/se/vendor/phpunit/php-token-stream/tests/_fixture/class_with_method_that_declares_anonymous_class.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordResetServiceProvider.php",
+		"/C/xampp/htdocs/se/vendor/laravel/framework/src/Illuminate/Pagination/LengthAwarePaginator.php",
+		"/C/Users/Gabriel/Trabajo/Recursos/ample-admin-lite_216f01ce51f6770f0/ample-admin-lite/html/profile.html",
+		"/C/xampp/htdocs/se/resources/assets/js/bootstrap.js",
+		"/C/xampp/htdocs/se/resources/assets/sass/_variables.scss",
+		"/C/xampp/htdocs/se/resources/assets/sass/app.scss",
+		"/C/xampp/htdocs/se/resources/views/login.blade.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/dashboard.blade.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/users/update.blade.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/users/edit.blade.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/users/index.blade.php",
+		"/C/xampp/htdocs/se/resources/views/administrador/users",
+		"/C/xampp/htdocs/se/storage/framework/views/840862e0dbe0a996f857419b4853a9cd754ff114.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\SoltisamKR\\resources\\views",
+			"C:\\xampp\\htdocs\\SoftwareEducativo\\resources\\views"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"administracion.dashboard",
+			"administracion",
+			"Juego #",
+			"sur",
+			"\"",
+			"en",
+			"titulo",
+			"admin",
+			"imagenes",
+			"book_1",
+			"ts.",
+			"asignar_profesor",
+			"id_estudiante_evaluacion",
+			"id_evaluacion_modulo",
+			"unsigned",
+			"id_evaluacion_modulo",
+			"id_modulo",
+			"seccion_modulo",
+			"id_juego",
+			"id_modulo",
+			"nombre",
+			"input",
+			"Input",
+			"input",
+			"Input",
+			"input",
+			"Input",
+			"input",
+			"Input",
+			"input",
+			"all()",
+			"all",
+			"nombre",
+			"modal_crear_seccion",
+			"years",
+			"                        \n",
+			"seccion",
+			"SeccionesController",
+			"seccion",
+			"h3",
+			"year",
+			"toast",
+			"hasManyThrough",
+			"default",
+			"<span",
+			"span",
+			"activo",
+			"desde",
+			"administracion",
+			"administrador",
+			"referneces",
+			"id_profesor",
+			"unique",
+			"id_modulo",
+			"user",
+			"id_profesor",
+			"id_year",
+			"_academico",
+			"year_academico",
+			"name",
+			"autofocus",
+			"cedula",
+			"Cedula",
+			"cedula",
+			"Cedula",
+			"cedula",
+			"name",
+			"Name",
+			"name",
+			"asdasd",
+			"class=\"waves-effec",
+			"<i class=\"fa fa-font fa-fw\" aria-hidden=\"true\"></i>",
+			"asdasdads",
+			".fa",
+			"fa",
+			"fonts",
+			"FontAwesome",
+			"fontawesome",
+			"FontAwesome",
+			"../less/icons",
+			"administracion",
+			"dministradorControlle",
+			"cedula",
+			"email",
+			"td",
+			"data-item=\"{{ $loop->index }}\"",
+			"modal-title-modulo",
+			"modal",
+			"charge_se",
+			"estructura",
+			"ajax",
+			"token",
+			"TOKEN",
+			"else",
+			"success",
+			"class",
+			"div",
+			"item",
+			"\"seccion",
+			"seccion",
+			"caja",
+			"condominio",
+			"Condominio",
+			"condominio",
+			"Condominio",
+			"condominio",
+			"\n    ",
+			"crearUnidad",
+			"form_modificar_unidad",
+			"form_unidad_agregar",
+			"nombre",
+			"propietario",
+			"codigo",
+			"select2_single",
+			"select2",
+			"script",
+			"nombre",
+			"buscarPropietarios",
+			"\t\tbuscarPropietarios( $enlace.attr('data-tipo_accion') );\n",
+			"buscarPropietarios",
+			"\tbuscarPropietarios = function(){\n",
+			"buscarPropietarios",
+			"prop",
+			"nombre",
+			"acomodados",
+			"acomodarPropietarios",
+			"prop_find",
+			"acomodarPropietarios"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								653,
+								662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/layouts/administracion/header.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/layouts/administracion/navtop.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1700,
+								1700
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/layouts/administracion/navleft.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1033,
+								1033
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampp/htdocs/hidropaez_/hidropaez/database/seeds/UsersTableSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/xampp/htdocs/hidropaez_/hidropaez/app/Http/Controllers/ProcesoController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								766,
+								766
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Http/Controllers/Administracion/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								191,
+								191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/administrador/users/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Http/Controllers/Administracion/UsersController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1723,
+								1723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Software Educativo.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"procesocon",
+				"hidropaez\\app\\Http\\Controllers\\ProcesoController.php"
+			],
+			[
+				"userssee",
+				"hidropaez\\database\\seeds\\UsersTableSeeder.php"
+			],
+			[
+				"usercon",
+				"se\\app\\Http\\Controllers\\Administracion\\UsersController.php"
+			],
+			[
+				"usercontrol",
+				"hidropaez\\app\\Http\\Controllers\\UserController.php"
+			],
+			[
+				"users/",
+				"se\\resources\\views\\administrador\\users\\create.blade.php"
+			],
+			[
+				"header.blade.php",
+				"se\\resources\\views\\layouts\\administracion\\header.blade.php"
+			],
+			[
+				"web.php",
+				"se\\routes\\web.php"
+			],
+			[
+				"homecontr",
+				"se\\app\\Http\\Controllers\\Administracion\\HomeController.php"
+			],
+			[
+				"homecon",
+				"hidropaez\\app\\Http\\Controllers\\homeController.php"
+			],
+			[
+				"userssed",
+				"se\\database\\seeds\\UsersSeeder.php"
+			],
+			[
+				"seeder",
+				"se\\database\\seeds\\UsersSeeder.php"
+			],
+			[
+				"dashboard",
+				"se\\resources\\views\\estudiantes\\dashboard.blade.php"
+			],
+			[
+				"modulo",
+				"se\\app\\Modulo.php"
+			],
+			[
+				"usersse",
+				"se\\database\\seeds\\UsersSeeder.php"
+			],
+			[
+				"lang/",
+				"hidropaez\\resources\\lang\\en\\pagination.php"
+			],
+			[
+				"user.php",
+				"se\\app\\User.php"
+			],
+			[
+				"header.blad.eph",
+				"se\\resources\\views\\layouts\\administracion\\header.blade.php"
+			],
+			[
+				"dashboard.blade",
+				"se\\resources\\views\\estudiantes\\dashboard.blade.php"
+			],
+			[
+				"compoenn",
+				"se\\app\\Componente.php"
+			],
+			[
+				"header.blade",
+				"se\\resources\\views\\layouts\\administracion\\header.blade.php"
+			],
+			[
+				"web.pp",
+				"se\\routes\\web.php"
+			],
+			[
+				"register.bl",
+				"se\\resources\\views\\auth\\register.blade.php"
+			],
+			[
+				"seccion.ph",
+				"se\\app\\Seccion.php"
+			],
+			[
+				"seccion.",
+				"se\\app\\Seccion.php"
+			],
+			[
+				"estudaintesc",
+				"se\\app\\Http\\Controllers\\Administracion\\EstudiantesController.php"
+			],
+			[
+				"layous/",
+				"se\\resources\\views\\layouts\\app.blade.php"
+			],
+			[
+				"modal_asgi",
+				"se\\resources\\views\\administrador\\secciones\\recursos\\modal_asignar_profesor.blade.php"
+			],
+			[
+				"seccioncon",
+				"se\\app\\Http\\Controllers\\Administracion\\SeccionesController.php"
+			],
+			[
+				"we.bphp",
+				"se\\routes\\web.php"
+			],
+			[
+				"index.blade.php",
+				"se\\resources\\views\\administrador\\secciones\\index.blade.php"
+			],
+			[
+				"secciones",
+				"se\\app\\Http\\Controllers\\Administracion\\SeccionesController.php"
+			],
+			[
+				"userscon",
+				"se\\app\\Http\\Controllers\\Administracion\\UsersController.php"
+			],
+			[
+				"we.php",
+				"se\\routes\\web.php"
+			],
+			[
+				"secciones/index",
+				"se\\resources\\views\\administrador\\secciones\\index.blade.php"
+			],
+			[
+				"year.php",
+				"se\\app\\Year.php"
+			],
+			[
+				"migrations/",
+				"se\\database\\migrations\\2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"modal.bla",
+				"se\\resources\\views\\estudiantes\\elementos\\modal_modulos.blade.php"
+			],
+			[
+				"appser",
+				"se\\app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"footer.bl",
+				"se\\resources\\views\\layouts\\administracion\\footer.blade.php"
+			],
+			[
+				"seccion/index",
+				"se\\resources\\views\\administrador\\secciones\\index.blade.php"
+			],
+			[
+				"seccion",
+				"se\\app\\Seccion.php"
+			],
+			[
+				"seccio",
+				"se\\app\\Seccion.php"
+			],
+			[
+				"52386514899f8",
+				"se\\storage\\framework\\views\\c56b53217d44e0152386514899f8179c6826b955.php"
+			],
+			[
+				"usercontr",
+				"se\\app\\Http\\Controllers\\Administracion\\UsersController.php"
+			],
+			[
+				"year",
+				"se\\app\\Year.php"
+			],
+			[
+				"seccionc",
+				"se\\app\\Http\\Controllers\\Administracion\\SeccionesController.php"
+			],
+			[
+				"years/show",
+				"se\\resources\\views\\administrador\\years\\show.blade.php"
+			],
+			[
+				"permissio",
+				"ample-admin-lite\\plugins\\bower_components\\morrisjs\\spec\\lib\\label_series_spec.coffee"
+			],
+			[
+				"wherenull",
+				"se\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php"
+			],
+			[
+				"yearcontr",
+				"se\\app\\Http\\Controllers\\Administracion\\YearsController.php"
+			],
+			[
+				"serviceprovi",
+				"se\\app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"register.blade",
+				"se\\resources\\views\\auth\\register.blade.php"
+			],
+			[
+				"usercont",
+				"se\\app\\Http\\Controllers\\Administracion\\UsersController.php"
+			],
+			[
+				"users/cre",
+				"se\\resources\\views\\administrador\\users\\create.blade.php"
+			],
+			[
+				"create",
+				"se\\resources\\views\\administrador\\users\\create.blade.php"
+			],
+			[
+				"userscre",
+				"se\\app\\Http\\Controllers\\Administracion\\UsersController.php"
+			],
+			[
+				"secciones/in",
+				"se\\resources\\views\\administrador\\secciones\\index.blade.php"
+			],
+			[
+				"usersc",
+				"se\\app\\Http\\Controllers\\Administracion\\UsersController.php"
+			],
+			[
+				"secciones/",
+				"se\\resources\\views\\administrador\\secciones\\recursos\\modal_asignar_profesor.blade.php"
+			],
+			[
+				"logincon",
+				"se\\app\\Http\\Controllers\\Auth\\LoginController.php"
+			],
+			[
+				"login",
+				"se\\app\\Http\\Controllers\\Auth\\LoginController.php"
+			],
+			[
+				"login.blad",
+				"se\\resources\\views\\auth\\login.blade.php"
+			],
+			[
+				"length",
+				"se\\vendor\\symfony\\http-kernel\\Exception\\LengthRequiredHttpException.php"
+			],
+			[
+				"password",
+				"se\\vendor\\phpunit\\php-token-stream\\tests\\_fixture\\class_with_method_that_declares_anonymous_class.php"
+			],
+			[
+				"lengthpa",
+				"se\\vendor\\laravel\\framework\\src\\Illuminate\\Pagination\\LengthAwarePaginator.php"
+			],
+			[
+				"userc",
+				"se\\app\\Http\\Controllers\\Administracion\\UsersController.php"
+			],
+			[
+				"profile",
+				"ample-admin-lite\\html\\profile.html"
+			],
+			[
+				"dbe0a996f857419b4853a9c",
+				"se\\storage\\framework\\views\\840862e0dbe0a996f857419b4853a9cd754ff114.php"
+			],
+			[
+				"seccion/indx",
+				"se\\resources\\views\\administrador\\secciones\\index.blade.php"
+			],
+			[
+				"years/index",
+				"se\\resources\\views\\administrador\\years\\index.blade.php"
+			],
+			[
+				"homeco",
+				"se\\app\\Http\\Controllers\\administracion\\HomeController.php"
+			],
+			[
+				"web.ph",
+				"se\\routes\\web.php"
+			],
+			[
+				"seccionesc",
+				"se\\app\\Http\\Controllers\\SeccionesController.php"
+			],
+			[
+				"administr",
+				"se\\public\\css\\administracion.css"
+			],
+			[
+				"year/",
+				"se\\resources\\views\\administrador\\years\\index.blade.php"
+			],
+			[
+				"admin_app",
+				"se\\public\\css\\admin_app.css"
+			],
+			[
+				"style.css",
+				"se\\public\\css\\style.css"
+			],
+			[
+				"estudian",
+				"se\\app\\Estudiante.php"
+			],
+			[
+				"yearc",
+				"se\\app\\Http\\Controllers\\YearsController.php"
+			],
+			[
+				"layouts/con",
+				"se\\resources\\views\\layouts\\administracion\\content.blade.php"
+			],
+			[
+				"yearcon",
+				"se\\app\\Http\\Controllers\\YearsController.php"
+			],
+			[
+				"layouts/nav",
+				"se\\resources\\views\\layouts\\administracion\\navleft.blade.php"
+			],
+			[
+				"estudaintes/",
+				"se\\resources\\views\\estudiantes\\modulos.blade.php"
+			],
+			[
+				"layouts/cont",
+				"se\\resources\\views\\layouts\\administracion\\content.blade.php"
+			],
+			[
+				"yearsco",
+				"se\\app\\Http\\Controllers\\YearsController.php"
+			],
+			[
+				"layouts/mas",
+				"se\\resources\\views\\layouts\\administracion\\master.blade.php"
+			],
+			[
+				"index.html",
+				"ample-admin-lite\\html\\index.html"
+			],
+			[
+				"yearscontr",
+				"se\\app\\Http\\Controllers\\YearsController.php"
+			],
+			[
+				"years/",
+				"se\\resources\\views\\administrador\\years\\index.blade.php"
+			],
+			[
+				"configs",
+				"se\\app\\Http\\Controllers\\ConfigsController.php"
+			],
+			[
+				"config/ses",
+				"se\\config\\session.php"
+			],
+			[
+				"master",
+				"se\\resources\\views\\layouts\\administracion\\master.blade.php"
+			],
+			[
+				"jqeu",
+				"se\\public\\js\\jquery.js"
+			],
+			[
+				"toast.sj",
+				"se\\public\\js\\jquery.toast.js"
+			],
+			[
+				"naveft.blade",
+				"se\\resources\\views\\layouts\\administracion\\navleft.blade.php"
+			],
+			[
+				"years/ind",
+				"se\\resources\\views\\administrador\\years\\index.blade.php"
+			],
+			[
+				"yearsc",
+				"se\\app\\Http\\Controllers\\YearsController.php"
+			],
+			[
+				"master.blade",
+				"se\\resources\\views\\layouts\\administracion\\master.blade.php"
+			],
+			[
+				"toast",
+				"ample-admin-lite\\plugins\\bower_components\\toast-master\\css\\jquery.toast.css"
+			],
+			[
+				"toast.",
+				"ample-admin-lite\\plugins\\bower_components\\toast-master\\js\\jquery.toast.js"
+			],
+			[
+				"yearscon",
+				"se\\app\\Http\\Controllers\\YearsController.php"
+			],
+			[
+				"adminic",
+				"se\\app\\Http\\Controllers\\AdministradorController.php"
+			],
+			[
+				"administraci",
+				"se\\public\\css\\administracion.css"
+			],
+			[
+				"administracion/",
+				"se\\resources\\views\\layouts\\administracion\\navleft.blade.php"
+			],
+			[
+				"administradorc",
+				"se\\app\\Http\\Controllers\\AdministradorController.php"
+			],
+			[
+				"user.",
+				"se\\app\\User.php"
+			],
+			[
+				"user",
+				"se\\database\\migrations\\2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"authcon",
+				"se\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Console\\MakeAuthCommand.php"
+			],
+			[
+				"migrations/config",
+				"se\\database\\migrations\\2017_05_16_203554_create_config_table.php"
+			],
+			[
+				"migrations/user",
+				"se\\database\\migrations\\2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"logincont",
+				"se\\app\\Http\\Controllers\\Auth\\LoginController.php"
+			],
+			[
+				"animate.css",
+				"ample-admin-lite\\html\\css\\animate.css"
+			],
+			[
+				"bootstra.min.",
+				"ample-admin-lite\\html\\bootstrap\\dist\\css\\bootstrap.min.css"
+			],
+			[
+				"header.blade.ph",
+				"se\\resources\\views\\layouts\\administracion\\header.blade.php"
+			],
+			[
+				"blank",
+				"ample-admin-lite\\html\\blank.html"
+			],
+			[
+				"blan",
+				"ample-admin-lite\\html\\blank.html"
+			],
+			[
+				"administracion/mas",
+				"se\\resources\\views\\layouts\\administracion\\master.blade.php"
+			],
+			[
+				"custom.",
+				"ample-admin-lite\\html\\js\\custom.js"
+			],
+			[
+				"waves.js",
+				"ample-admin-lite\\html\\js\\waves.js"
+			],
+			[
+				"slmscroll",
+				"ample-admin-lite\\html\\js\\jquery.slimscroll.js"
+			],
+			[
+				"sidebar-nav.js",
+				"ample-admin-lite\\plugins\\bower_components\\sidebar-nav\\dist\\sidebar-nav.js"
+			],
+			[
+				"sidebar-nav-",
+				"ample-admin-lite\\plugins\\bower_components\\sidebar-nav\\dist\\sidebar-nav.css"
+			],
+			[
+				"estudi",
+				"app\\Http\\Controllers\\EstudiantesController.php"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"app.js",
+				"public\\js\\app.js"
+			],
+			[
+				"mudlocon",
+				"app\\Http\\Controllers\\ModulosController.php"
+			],
+			[
+				"estudiantes",
+				"app\\Http\\Controllers\\EstudiantesController.php"
+			],
+			[
+				"modulos.blade",
+				"resources\\views\\estudiantes\\modulos.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\onedeck\\onedeck_project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 431.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

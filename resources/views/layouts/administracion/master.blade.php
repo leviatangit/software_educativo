@@ -1,0 +1,5 @@
+@include('layouts.administracion.header')
+@include('layouts.administracion.navtop')
+@include('layouts.administracion.navleft')
+@include('layouts.administracion.content')
+@include('layouts.administracion.footer')
