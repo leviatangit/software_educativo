@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Administracion;
 
 use Illuminate\Http\Request;
 use Auth;
+
 class HomeController extends Controller
 {
     /**
@@ -29,7 +30,7 @@ class HomeController extends Controller
             return redirect()->route('administracion.dashboard');            
         }
         if( $rol == 'profesor'){
-            return redirect()->route('administracion.dashboard');            
+            return redirect()->route('profesor.dashboard');            
         }        
         if( $rol == 'estudiante' ){
             return redirect()->route('estudiantes.dashboard');

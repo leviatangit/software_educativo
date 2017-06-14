@@ -19,11 +19,11 @@ class CreateEstudianteEvaluacionTable extends Migration
             $table->foreign('id_evaluacion_modulo')->references('id')->on('evaluacion_modulo'); 
             $table->integer('id_estudiante')->unsigned();
             $table->foreign('id_estudiante')->references('id')->on('estudiantes');                         
-            $table->float('nota');
-            $table->integer('cant_correctas');
-            $table->integer('cant_incorrectas');
-            $table->enum('status',['aprobado','suspendido']);
-
+            $table->float('nota')->nullable();
+            $table->integer('cant_correctas')->nullable();
+            $table->integer('cant_incorrectas')->nullable();
+            $table->enum('status',['aprobada','reprobada']);
+            $table->boolean('calificada')->default(0);            
             $table->timestamps();
         });
     }

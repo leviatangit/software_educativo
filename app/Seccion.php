@@ -21,5 +21,16 @@ class Seccion extends Model
     public function year(){
     	return $this->belongsTo( Year::class, 'id_year' , 'id' );
     }       
+    // Modulos evaluaciòn
+    public function modulo_evaluaciones(){
+        return $this->hasMany( SeccionModulo::class, 'id_seccion' , 'id' );
+    }    
+
+    public function evaluaciones(){
+     return $this->hasManyThrough( EvaluacionEstudiante::class , Estudiante::class, 'id_seccion', 'id_estudiante' , 'id');
+    }      
+
+
+
 
 }

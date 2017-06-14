@@ -319,3 +319,60 @@ border-bottom: 1px solid #ccc;
 .dropdown-usermenu .deslogeo {
 	
 }
+
+#ModalComponente {
+	
+	font-size: 1.1em
+}
+
+
+#ModalComponente .modal-header {
+	text-align: center;
+}
+
+.definicion {
+	/*! color: #999; */
+	/*! text-align: center; */
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+
+.title-c {
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+	
+}
+
+.mantenimiento p {
+	
+}
+
+.imagen-mini {width: 20px;}
+
+.modal_t {
+}
+
+
+.evaluacion-div { 
+.text-align: center;
+padding: 20px;
+margin: 20px 0;
+border-bottom: 2px solid #ccc;
+ }
+
+
+.evaluacion-div .label-header { 
+
+	/*! text-align: center; */
+	display: block;
+	color: #999;
+ }
+
+
+.evaluacion-div .label-text {  
+
+	font-weight: inherit;
+ }

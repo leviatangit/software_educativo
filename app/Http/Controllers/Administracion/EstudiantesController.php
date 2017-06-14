@@ -5,15 +5,24 @@ namespace App\Http\Controllers\Administracion;
 use Illuminate\Http\Request;
 use App\Modulo;
 use App\Seccion;
+use App\Year;
 
 class EstudiantesController extends Controller
 {
-    public function index( $id_seccion ){
-    	
-        $secciones = Seccion::all();
-        $seccion = Seccion::findOrfail( $id_seccion );
-        $year = $seccion->year;
-    	return view('administrador.estudiantes.index' , ['secciones' => $secciones , 'seccion' => $seccion , 'year' => $year ]);
+    public function index( $id_year = false ){
+
+        // $year = Year::first() ? Year::first()->hasActive()   ;
+        if( $id_year ){
+            $year = Year::find( $id_year );
+        }
+
+        else {
+            $year = Year::first()->hasActive();
+        }
+
+        $years = Year::all();
+
+    	return view('administrador.estudiantes.index' , [ 'year' => $year ]);
     }
 
     public function modulos( $id ){
@@ -25,7 +34,9 @@ class EstudiantesController extends Controller
     	return view( 'estudiantes.modulos' , ['title' => 'Modulo de estudio' , 'modulos' => $modulos , 'moduloNumero' => $moduloNumero  , 'titulo_pagina' => 'Modulo', 'modulo' => $modulo ]);
     }
 
-
+    public function evaluaciones( $id_estudiante ){
+        return $id_estudiante;
+    }
  
 
 }

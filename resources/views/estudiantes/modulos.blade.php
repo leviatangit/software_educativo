@@ -2,11 +2,8 @@
 
 @section('contenido')
 
-
 <div class="container container-modulo">
-
 <div class="row header-modulo">
-
 <div class="modulo">
 	<div class="col-md-6">		
 		<h3 class="titulo-modulo"> {{ $moduloNumero }}  </h3>
@@ -60,7 +57,11 @@
 
 <div class="link-recursos">
 	<button type="button" class="btn btn-xs btn-default" data-toggle="modal" data-target="#myModal"><span class="fa fa-eye"></span> Lectura </button>	
-	<a class="btn btn-xs btn-success pull-right" href=""> <span class="fa fa-spin fa-spinner"></span> Evaluaciòn </a>
+	@if( $modulo->active_evaluacion() )
+	<a class="btn btn-xs btn-success pull-right" href="{{ route('modulo.evaluacion', ['id_modulo' => $modulo->id ]) }}"> <span class="fa fa-spin fa-spinner"></span> Evaluaciòn </a>
+	@else
+	<a class="btn btn-xs btn-success pull-right disabled" href="#"> <span class="fa fa-spin fa-spinner"></span> Evaluaciòn </a>	
+	@endif
 </div>
 
 </div>

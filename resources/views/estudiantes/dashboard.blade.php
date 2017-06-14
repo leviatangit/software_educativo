@@ -31,7 +31,7 @@
 	<div class="row row-seccion" data-seccion="2">	
 		@foreach( $componentes as $componente )
 			<div class="col-md-3 col-sm-4 item-box"> 
-				<a  href="#" data-nombre="{{ $componente->titulo }}" data-id="{{ $componente->id }}" class="item item-c">
+				<a  href="#" data-nombre="{{ $componente->nombre }}" data-id="{{ $componente->id }}" data-contenido="{{ $componente->contenido }}" class="item item-c">
 					<div class="item-header">
 						<img src="{{ url('img/' . $componente->imagen->nombre) }}">					
 					</div>
@@ -62,3 +62,4 @@
 @include('estudiantes.elementos.modal_componentes')
 
 @endsection
+

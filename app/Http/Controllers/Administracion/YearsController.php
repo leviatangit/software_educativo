@@ -5,21 +5,31 @@ namespace App\Http\Controllers\Administracion;
 use Illuminate\Http\Request;
 use App\Year;
 use App\Seccion;
+use App\EvamItems;
+use App\SeccionModulo;
+use App\EvaluacionModulo;
+use App\EvaluacionEstudiante;
 use DB;
 
 class YearsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
+    public function __construct(){
+        $this->middleware('area');
+
+    }
+
     public function index()
     {
         $years = Year::orderBy('activo','desc')->get();    
         return view('administrador.years.index' , ['years' => $years]);
     }
 
+    public function estudiantes( $id = null )
+    {
+        $year = Year::find($id);
+        return view('administrador.years.estudiantes' , [ 'years' => Year::all(), 'year' => $year ]);
+    }
 
     public function create( Request $request )
     {
@@ -40,15 +50,44 @@ class YearsController extends Controller
         // Crear secciones
         $secciones_name = ['A','B','C','D'];  
               
-        for( $i = 0; $i <= 3; $i++ ){
+        for( $i = 0; $i <= 3; $i++ ){            
             $seccion = new Seccion;
             $seccion->nombre = $secciones_name[$i];
             $seccion->id_year = $year->id;
             $seccion->registro_activo = $request->activo;            
             $seccion->save();
+
+            // Crear Secciones Modulos
+            for( $x = 1; $x <= 6; $x++ ){
+                $sm = new SeccionModulo;
+                $sm->id_modulo = $x;
+                $sm->id_seccion = $seccion->id;
+                if( $x == 1 ) {                    
+                    $sm->evaluacion_activa = 1;                    
+                }                
+                $sm->save();
+/*
+                if( $x == 1 ){
+                    $em = new EvaluacionModulo;
+                    $em->id_seccion_modulo = $sm->id;
+                    $em->nota = 33;
+                    $em->status  = 'activa';
+                    $em->save();                    
+
+                    for( $y = 1; $y <= 5; $y++ ){
+                       $ei = new EvamItems;
+                       $ei->id_evaluacion_modulo = $em->id;
+                       $ei->id_item_evaluacion = $y;
+                       $ei->save();
+                    }
+                }
+*/
+            }
         }
 
-        session('meesage','asmdklamsdlasmdlamsdad');
+        $notificacion = ['tipo' => 'success' , 'header' => 'Registro exitoso', 'text' => 'Se ha registrado exitosamente el año academico '.  $year->f_academico() ];
+
+        session()->flash( 'notificacion', $notificacion );
         return redirect()->route('years.index');
     }
 
@@ -61,7 +100,8 @@ class YearsController extends Controller
     public function show($id)
     {
         $year = Year::findOrfail( $id );
-        return view('administrador.years.show' , [ 'year' => $year ]);
+        $evaluaciones = EvaluacionEstudiante::all();
+        return view('administrador.years.show' , [ 'year' => $year, 'evaluaciones' => $evaluaciones ]);
     }
 
     /**

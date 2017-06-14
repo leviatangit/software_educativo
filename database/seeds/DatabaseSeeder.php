@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call(ComponentesSeeders::class);
         $this->call(TemasSeeders::class);
         $this->call(JuegosSeeders::class);
-
+        $this->call(ItemsEvaluacionesSeeder::class);
+        $this->call(OpcionesSeeder::class);
+        
     }
 }

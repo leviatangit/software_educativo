@@ -31,7 +31,7 @@ class HomeController extends Controller
         else if( $rol == 'profesor'){
             return redirect()->route('profesor.dashboard');            
         }        
-        else {
+        else if( $rol == 'director' ){
             return redirect()->route('administracion.dashboard');            
         }        
 

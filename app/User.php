@@ -20,6 +20,15 @@ class User extends Authenticatable
 
     public $timestamps = false;
 
+
+    public function estudiante(){
+        return $this->hasOne( Estudiante::class, 'id_user', 'id' );
+    }
+
+    public function isR( $rol ){
+        return $this->rol == $rol;
+    }
+
     /**
      * The attributes that should be hidden for arrays.
      *

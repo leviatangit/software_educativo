@@ -18,4 +18,9 @@ class Estudiante extends Model
     	return $this->belongsTo( Seccion::class, 'id_seccion', 'id' );
     }
 
+    public function evaluaciones(){
+    	return $this->hasMany( EvaluacionEstudiante::class, 'id_estudiante', 'id' );
+    }
+
+
 }

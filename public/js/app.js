@@ -23,22 +23,22 @@ $('.item-c').on('click', function(e){
 
 	e.preventDefault();
 
-	var $idComponente = $(this).attr('data-id');
+	var $modal = $("#ModalComponente");
+	var $id_componente = $(this).attr('data-id');
+	var $titulo_componente = $(this).attr('data-nombre');
+	var $contenido_componente = $(this).attr('data-contenido');
+	var $url = $(this).find('img').attr('src');
 
-	$.ajax({
-
-		type : 'get',
-		url : 'infoComponente',
-		data : {
-			id : $idComponente
-		},
-		success : function(data){
-			console.log(data);
-		}
+	$modal.find('.modal_t').text( $titulo_componente );
+	$modal.find('.modal-body').empty();	
+	$modal.find('.modal-body').append( $contenido_componente );
+	$modal.find('.imagen-mini').attr({
+		'outline' : '2px solid red',
+		'src' : $url
 	});
 
+	$modal.find('#componente_id').val( $id_componente );
 	$('#ModalComponente').modal();
-
 });
 
 

@@ -2,19 +2,20 @@
 
 @section('breadcrumb')
 	<li> <a href="{{ url('home')  }}"> Inicio </a> </li>
-    <li> <a href="{{ url('home')  }}"> 2015 </a> </li>    
-	<li class="active"> Años </li>
+    <li> <a href="{{ route('years.index') }}"> Años </a> </li>    
+    <li> <a href="{{ route('years.show' , [$year->id]) }}"> {{ $year->f_academico() }} </a> </li>
+    <li class="active"> Secciones </li>    
 @endsection
 
 @section('js')
 <script type="text/javascript">
-    $(function(){
-        $('[data-id_seccion]').on('click',function(){
-            var id_seccion = $(this).attr('data-id_seccion');
-            $('input[name=id_seccion]').val( id_seccion );
-        })
-
+$(function(){
+    $('[data-id_seccion]').on('click',function(){
+        var id_seccion = $(this).attr('data-id_seccion');
+        $('input[name=id_seccion]').val( id_seccion );
     })
+
+})
 </script>
 @endsection
 
@@ -53,8 +54,7 @@
                         <th>Secciòn</th>
                         <th>Profesor</th>                        
                         <th>Estudiantes</th>
-                        <th>Promedio</th>                        
-                        <th>Modulos</th>                        
+                        <th>Evaluaciones</th>                        
                         <th>Acciones</th>
                     </tr>
                 </thead>
@@ -62,31 +62,26 @@
                @if( count($secciones)  > 0 )
                @foreach( $secciones as $seccion )
                     <tr class="{{ $seccion->activo ? 'active' : '' }}">
-                        <td> <a href="{{ route('seccion.show' , [$seccion->id]) }}"> {{ $seccion->nombre }} </a></td>
+                        <td> <a class="btn btn-xs btn-default" href="{{ route('seccion.show' , [$seccion->id]) }}"> {{ $seccion->nombre }} </a></td>
                         <td class="td_profesor">
                         @if( $seccion->profesor )
-                            <a href="{{ route('users.show', [ $seccion->id_profesor]) }}" class="btn btn-link"> {{ $seccion->profesor->fullName() }} </a>                            
+                            <a href="{{ route('users.show', [ $seccion->id_profesor]) }}" class="btn btn-default btn-xs"> {{ $seccion->profesor->fullName() }} </a>                            
                             @if( $year->activo )
-                                <a href="{{ route('seccion.remover_profesor', [ 'id' => $seccion->id ]) }}" class="btn btn-default ra_button btn-sm"> <span class="fa fa-remove"></span></a>
+                                <a href="{{ route('seccion.remover_profesor', [ 'id' => $seccion->id ]) }}" class="btn btn-danger ra_button btn-xs"> <span class="fa fa-remove"></span></a>
                             @endif
                         @else
                             @if( $year->activo )
-                            <button type="button" data-id_seccion="{{ $seccion->id }}" class="btn btn-link btn-xs" data-toggle="modal" data-target="#ModalAsignar"> <span class="fa fa-spin fa-spinner"></span> Asignar </button>
+                            <a class="btn btn-default btn-xs" href="#ModalAsignar" data-toggle="modal" data-id_seccion="{{ $seccion->id }}"> <span class="fa fa-spin fa-spinner"></span> asignar</a>
                             @else 
                             <span class="noprof"> - </span>
                             @endif
                         @endif
                         </td>                        
                         <td> <a href="{{ route('estudiantes.seccion.index' , [ $seccion->id ]) }}" class="btn btn-default btn-xs"> {{ count( $seccion->estudiantes ) }} </a>  </td>                        
-                        <td>  {{ $seccion->promedio }}  </td>
-                        <td> <a href="{{ route('seccion.index', [ $seccion->id] ) }}" class="btn btn-default btn-xs"> 5 </a>  </td>
+                        <td> <a href="{{ route('seccion.modulos', [ $seccion->id] ) }}" class="btn btn-default btn-xs"> 5 </a>  </td>
                         <td> 
                             <a href="#" class="btn btn-default btn-xs"> <span class="fa fa-eye"></span> ver </a>
-                            @if( $seccion->activo == false )                            
-                            <a href="#" class="btn btn-default btn-xs"> <span class="fa fa-eye"></span> activar </a>
-                            @endif
-                            <a href="#" class="btn btn-default btn-xs"> <span class="fa fa-eye"></span> </a>
-                            <a href="#" class="btn btn-default btn-xs"> <span class="fa fa-eye"></span> </a>        
+                            <a href="{{ route('seccion.modulos', [ $seccion->id] ) }}" class="btn btn-default btn-xs"> <span class="fa fa-pencil"></span> evaluaciones </a> 
                         </td>
                     </tr>
                @endforeach

@@ -4,7 +4,8 @@
 	<meta charset="utf-8">	
 	<link rel="stylesheet" type="text/css" href="{{ url('css/bootstrap.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ url('css/app.css') }}">	
-	<link rel="stylesheet" type="text/css" href="{{ url('css/fontawesome.css') }}">		
+	<link rel="stylesheet" type="text/css" href="{{ url('css/fontawesome.css') }}">	
+  <link href="{{ url('css/jquery.toast.css') }}" rel="stylesheet">    
 	@yield('librerias_css')
 	<title> {{ $title }} </title>
 </head>

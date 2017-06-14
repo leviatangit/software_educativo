@@ -3,7 +3,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Registrar Año Nuevo </h4>
+        <h4 class="modal-title"><span class="fa fa-calendar"></span> Registrar Nuevo Año Academico </h4>
       </div>
       <div class="modal-body">
         <form action="{{ route('years.create') }}" method="post">
@@ -11,9 +11,8 @@
         {{ csrf_field() }}
         <div class="form-group">   
           <label> Año </label>       
-          <input type="number" required="required" class="form-control" name="desde">            
-        </div>   
-
+          <input type="number" min="1900" required="required" class="form-control" name="desde">            
+        </div>  
         <div class="form-group">   
           <label> Activo </label>       
           <div class="separar-checkbox">
@@ -23,7 +22,7 @@
         </div>   
       </div>
       <div class="modal-footer">
-        <button class="btn btn-info" type="submit"> <span class="fa fa-date fa-fw"></span> Guardar </button>
+        <button class="btn btn-info" type="submit"> <span class="fa fa-save"></span> Guardar </button>
         <button type="button" class="btn btn-default" data-dismiss="modal"> Cerrar</button>
         </form>
       </div>

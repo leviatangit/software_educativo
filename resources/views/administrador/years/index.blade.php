@@ -30,7 +30,7 @@
                         <th>Año academico</th>
                         <th>Secciones</th>
                         <th>Estudiantes</th>
-                        <th>Status</th>
+                        <th>Estatus</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
@@ -38,10 +38,10 @@
                @if( count($years->all())  > 0 )
                @foreach( $years as $year )
                     <tr class="{{ $year->activo ? 'active' : '' }}">
-                        <td> <a href="{{ route('years.show' , [ $year->id ] ) }}" class="btn btn-link">  {{ $year->f_academico() }} </a> </td>
+                        <td> <a href="{{ route('years.show' , [ $year->id ] ) }}" class="btn btn-xs btn-default">  {{ $year->f_academico() }} </a> </td>
                         <td> <a href="{{ route('seccion.index', [ $year->id ] ) }}" class="btn btn-default btn-xs"> {{ count($year->secciones) }} </a> </td>  
                         <td> <a href="{{ route('estudiantes.index', [ $year->id ] ) }}" class="btn btn-default btn-xs"> {{ count($year->estudiantes) }} </a> </td>
-                        <td> {{ $year->activo }}  </td>
+                        <td> {{ $year->activo ? 'Activo' : 'Inactivo' }}  </td>
                         <td> 
                             <a href="{{ route('years.show' , [ $year->id ] ) }}" class="btn btn-default btn-xs"> <span class="fa fa-eye"></span> ver </a>
                         @if( $year->activo == true )                            

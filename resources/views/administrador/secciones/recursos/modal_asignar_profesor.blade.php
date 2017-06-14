@@ -10,7 +10,8 @@
         <form action="{{ route('seccion.asignar_profesor') }}" method="post">
         {{ method_field('POST') }}
         {{ csrf_field() }}
-        <input type="hidden" name="id_seccion" value="">        
+
+        <input type="hidden" name="id_seccion" value="{{ isset( $seccion ) ? $seccion->id : ''  }}">        
         <div class="form-group">   
           <label> Profesores </label>       
           <select name="id_profesor" class="form-control">

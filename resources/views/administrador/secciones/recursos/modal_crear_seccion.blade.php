@@ -3,10 +3,10 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"> Crear nueva secciòn </h4>
+        <h4 class="modal-title"> <span class="fa fa-fw fa-plus"></span>  Crear nueva secciòn {{ $year->f_academico() }} </h4>
       </div>
       <div class="modal-body">
-        <form action="{{ route('seccion.store',['profesor']) }}" method="post">
+        <form action="{{ route('seccion.store') }}" method="post">
         {{ method_field('POST') }}
         {{ csrf_field() }}
         <input type="hidden" name="id_year" value="{{ $year->id }}">
@@ -21,7 +21,7 @@
           @if( count($profesores) > 0 )
           <select name="id_profesor" class="form-control">
             @foreach( $profesores as $profesor )
-              <option value="{{ $profesor->id }}"> $profesor->fullName() </option>
+              <option value="{{ $profesor->id }}">{{ $profesor->fullName() }}</option>
             @endforeach
           </select>
           @else
@@ -30,7 +30,8 @@
         </div> 
       </div>
       <div class="modal-footer">
-        <button class="btn btn-info" type="submit"> <span class="fa fa-plus fa-fw"></span> Enviar  </button>
+        <a href="{{ route('users.create' ,['profesor']) }}" class="class btn btn-default btn-md"> <span class="fa fa-plus"></span> Registrar un profesor </a>
+        <button class="btn btn-info" type="submit"> <span class="fa fa-save fa-fw"></span> Enviar </button>
         </form>
         <button type="button" class="btn btn-default" data-dismiss="modal"> Cerrar</button>
       </div>

@@ -19,6 +19,7 @@ class CreateSeccionesModulosTable extends Migration
             $table->foreign('id_modulo')->references('id')->on('modulos');  
             $table->integer('id_seccion')->unsigned();
             $table->foreign('id_seccion')->references('id')->on('secciones');    
+            $table->enum('status', ['Default','Ready','Active','Finish'])->default('Default');            
             $table->boolean('evaluacion_activa')->default(0);
             $table->float('ponderacion')->nullable();                 
         });

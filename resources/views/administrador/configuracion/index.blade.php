@@ -12,7 +12,6 @@
             var id_seccion = $(this).attr('data-id_seccion');
             $('input[name=id_seccion]').val( id_seccion );
         })
-
     })
 </script>
 @endsection
@@ -41,24 +40,52 @@
         <!-- HABILITAR REGISTROS -->
 
         <?php 
-
         // Habilitar Registros
         $config_1 = App\Configuracion::find(1);
 
         ?>
+        @if( count( $years ) > 0 )
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs12">
+                <div class="form-group separador-config">
+                <h5 class="titulo"> Año actual/activo  </h5>
+                <div class="form-group">
+                    <select class="form-control" name="id_year_activo">
+                        @if( $years->first->hasActive() != false )
+                        @foreach( $years as $year )
+                        <option {{ $year->id == $years->first()->hasActive()->id ? "selected=selected" : '' }} value="{{ $year->id }}"> {{ $year->f_academico() }}  </option>
+                        @endforeach
+                        @else
+                        <option value=""> - Selecciona un año - </option>
+                        @foreach( $years as $year )
+                        <option value="{{ $year->id }}">  {{ $year->f_academico() }} </option>
+                        @endforeach
 
-        <div class="form-group separador-config">
-        <h5 class="titulo"> Habilitar Registros  </h5>
-          <div class="">
-            <label>
-              <input name="habilitar_registros" id="optionsRadios1" value="true" {{ $config_1->value == 'true' ? "checked='checked'" : '' }} checked="checked" type="radio"> Si </label>
-          </div>
-          <div class="">
-            <label>
-              <input name="habilitar_registros" id="optionsRadios2" type="radio" value="false" 
-              {{ $config_1->value == 'false' ? "checked='checked'" : '' }}> No </label>
-          </div>
+                        @endif        
+                    </select>
+                </div>
+                </div>
+            </div> 
         </div>
+        @if( $years->first()->hasActive() != false )
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs12">
+                <div class="form-group separador-config">
+                <h5 class="titulo"> Habilitar Registros  </h5>    
+                <div class="form-group">                
+                    <label>
+                      <input name="habilitar_registros" id="optionsRadios1" value="true" {{ $config_1->value == 'true' ? "checked='checked'" : '' }} checked="checked" type="radio"> Si </label>    
+                    <label>
+                      <input name="habilitar_registros" id="optionsRadios2" type="radio" value="false" 
+                      {{ $config_1->value == 'false' ? "checked='checked'" : '' }}> No </label>
+                </div>
+                </div>
+            </div> 
+        </div>
+        @else
+        <input type="hidden" name="habilitar_registros" value="false">     
+        @endif
+        @endif
 
         <div class="box-footer">
         <button type="submit" class="btn btn-info"> <span class="fa fa-save"></span> Guardar </button>
@@ -70,5 +97,3 @@
 
 
 @endsection
-
-

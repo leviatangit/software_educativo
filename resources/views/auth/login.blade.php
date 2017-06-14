@@ -15,7 +15,7 @@
 		<h2 class="login-titulo"> Login </h2>
 			<div class="col-md-6 box-inst">
 				<div class="membrete">
-					<p>U.E.N Julio German Roscio</p>
+					<p>E.T.I Joaquìn Avellan</p>
 				</div>					
 				<div class="logo">
 					<img src="{{ url('img/logo_.png')}} " class="img-circle">

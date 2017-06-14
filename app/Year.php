@@ -22,7 +22,17 @@ class Year extends Model
     public function hasActive(){
         $year = Year::where('activo',1)->get();        
         return count( $year ) ? $year->first() : false;
-    }    
+    }
+
+    public function activar( $id = false ){
+
+        Year::where('activo', 1)->update(['activo' => 0]);
+        
+        if( $id ){
+            $this->activo = 1;
+            $this->save();
+        }
+    }
 
     public function seccionesSinProf(){        
         $secciones = $this->hasActive()->secciones->where('id_profesor', '=' , null );

@@ -13,7 +13,9 @@
 
             <li> <a href="{{ route('years.index') }}" class="waves-effect"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> Años Academico </a> </li>
 
-            <li> <a href="{{ route('years.index') }}" class="waves-effect"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> Estudiantes </a> </li>
+            <li> <a href="{{ route('users.index') }}" class="waves-effect"><i class="fa fa-users fa-fw" aria-hidden="true"></i> Usuarios </a> </li>
+
+            <li> <a href="{{ route('modulos.index') }}" class="waves-effect"><i class="fa  fa-file-text-o fa-fw" aria-hidden="true"></i> Modulos </a> </li>            
 
             <li> <a href="{{ route('config.index') }}" class="waves-effect"><i class="fa fa-gears fa-fw" aria-hidden="true"></i> Configuraciòn </a> </li>     
 

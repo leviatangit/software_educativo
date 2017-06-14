@@ -31,5 +31,6 @@ class UsersSeeder extends Seeder
 	  'rol'  => 'estudiante',
 	]);
 
+
    }
 }
